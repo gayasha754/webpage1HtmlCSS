@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tutorial#3 Form</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <form action="">
+        <labbel for= "username">enter username:</labbel>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="email">enter email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" required>
+
+        <!--Radio button in action-->
+        <p>Select your age</p>
+
+        <input type='radio' name="age" value="0-25" id="option1">
+        <label for="option1">0-25</label>
+        <input type="radio" name="age" value="26-50" id="option2">
+        <label for="option2">26-50</label>
+        <input type="radio" name="age" value="50+" id="option3">
+        <label for="option3">50+</label>
+
+        <br><br>
+
+        <label for="question">Security question:</label>
+        <select name="question"id="question">
+            <option value="q1">What is your teacher's name?</option>
+            <option value="q2">What is your favourite colour?</option>
+            <option value="q3">What is your best ever security question?</option>
+        </select>
+
+        <br><br>
+
+        <label for="answer">Security question answer</label>
+        <input type="text" id="answer" name="answer">
+
+        <br><br>
+
+        <label for="bio">Your Bio:</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+
+        <br><br>
+        <input type="submit" value="Submit the form">
+
+    </form>
+</body>
+</html> 

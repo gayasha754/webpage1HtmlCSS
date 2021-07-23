@@ -1,0 +1,44 @@
+/* h1{
+    color: orange;
+    background-color: slategray;
+    font-size: 40px;
+    text-decoration:underline;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+}
+ p{
+    color: slategray;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 3px;
+} 
+ul{
+    /* border-width: 4px;
+    border-style: solid;
+    border-color: crimson; */
+    
+    /* border: 4px solid crimson; */
+
+    /* border-bottom: 4px dotted crimson;
+    border-left: 6px dashed #7ee6cf;
+}
+li{
+    list-style-type: none;
+    text-shadow: 2px 2px lightblue;
+}  */ 
+
+/* when ther's a space between class and parent; Descendant selector--> parent is div and any class error is affected*/
+div .error{ 
+    color:rgb(47, 201, 106) ;
+}
+
+/*when there's no space between the parent and class; the parent with the class is only affected*/
+div.error{
+    color: crimson;
+}
+a[href]{
+    background-color: #3dd13d;
+}
+a[href="https://www.youtube.com/watch?v=FHZn6706e3Q&list=PL4cUxeGkcC9ivBf_eKCPIAYXWzLlPAm6G&index=5"]{
+    background-color: darksalmon;
+}
